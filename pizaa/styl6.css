@@ -1,0 +1,45 @@
+#baner {
+  background-color: #4e885c;
+  color: orange;
+  text-align: center;
+  height: 110px;
+}
+#baner img {
+  width: 100px; /* Dostosuj szerokość obrazka */
+  max-height: 100px; /* Maksymalna wysokość obrazka */
+  vertical-align: middle;
+}
+#lewy {
+  background-color: #72a37d;
+  width: 30%;
+  height: 300px;
+  float: left;
+}
+#srodkowy {
+  background-image: pizza.png;
+  background-color: #a2c3a9;
+  width: 40%;
+  height: 300px;
+
+  float: left;
+}
+#prawy {
+  background-color: #72a37d;
+  text-align: center;
+  width: 30%;
+  height: 300px;
+  float: right;
+}
+#dolny {
+  background-color: #a2c3a9;
+  text-align: center;
+  height: 250px;
+
+  clear: both;
+}
+#stopka {
+  background-color: #4e885c;
+  color: orange;
+  width: 100%;
+  float: left;
+}
